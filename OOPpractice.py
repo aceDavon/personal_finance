@@ -2,7 +2,7 @@ from accounts import *
 
 david = account(acctName="David", initial_deposit=1000)
 mary = account(acctName="mary", initial_deposit=2000)
-davon= interestAcct("Davon", 400)
+davon= interest_acct("Davon", 400)
 
 david.get_acct_balance()
 david.deposit(amount=820)

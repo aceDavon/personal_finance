@@ -40,7 +40,7 @@ class account():
         except BalanceException as error:
             print(f"Transfer Failed: {error}")
 
-class interestAcct(account):
+class interest_acct(account):
     def __init__(self, acctName, initial_deposit):
         super().__init__(acctName, initial_deposit)
         self.balance = initial_deposit * 1.05
