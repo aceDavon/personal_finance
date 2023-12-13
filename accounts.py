@@ -7,4 +7,4 @@ class account():
     self.balance = initial_deposit
 
   def get_acct_balance(self):
-    print(f"\n {self.acctName}'s balance: {self.balance}\n")
+    print(f"\n {self.acctName}'s balance: ${self.balance:.2f}\n")
